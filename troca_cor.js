@@ -3,8 +3,7 @@ let senha = document.getElementById("senha");
 
 function trocaCor(){
     if (senha.value == "universo"){
-        document.querySelector('p').style.color = "blue";
-        document.getElementById('tchamo').style.visibility = "visible";
+        document.querySelector('p').style.visibility = "visible";
     }else{
         alert("Senha errada, meu amor");
         senha.value = "";
